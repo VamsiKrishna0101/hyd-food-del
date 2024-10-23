@@ -1,0 +1,39 @@
+.add{
+    width: 70%;
+    margin-left: 50px;
+    margin-top: 40px;
+    color: #6d6d6d;
+    font-size: 16px;
+}
+.add-prod-name,.add-prod-descr{
+    width: 40%;
+}
+.add-prod-name input{
+    padding: 10px;
+    text-align: center;
+}
+.add-prod-descr textarea{
+    padding: 11px;
+    text-align: center;
+}
+.add-category,.add-price{
+    width: 20%;
+}
+.add-category select{
+    padding: 7px;
+}
+.add-price input{
+    padding: 6.5px;
+}
+.form-btn{
+    width: 100px;
+    padding: 10px;
+    margin-left: 9vw;
+    background-color: black;
+    color: #f5f5f5;
+    border: 20px;
+}
+.Hello{
+    display: flex;
+    gap: 10px;
+}

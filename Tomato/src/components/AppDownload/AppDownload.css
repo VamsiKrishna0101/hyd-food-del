@@ -1,0 +1,17 @@
+.App-Download{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4vw;
+    margin-bottom: 3vw;
+}
+.App-Download img{
+    padding: 12px;
+}
+.App-Download p{
+    font-weight: 500;
+    font-size: 30px;
+}
+.app-download-platforms{
+    margin-top: 2vw;
+}

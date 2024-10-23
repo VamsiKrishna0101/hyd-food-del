@@ -1,0 +1,29 @@
+.SideBar{
+    width: 18%;
+    min-height: 100vh;
+    border: 1px solid #a9a9a9;
+    border-top: none;
+}
+.side-bar-options{
+    display: flex;
+    flex-direction: column;
+    padding-left: 14%;
+    padding-top: 30px;
+    gap: 20px;
+}
+.option{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border: 1px solid #a9a9a9;
+    padding: 8.4px;
+}
+.option.active{
+    background-color: #fff0ed;
+    border-color: tomato;
+}
+@media(max-width:900px){
+    .side-bar-options p{
+        display: none;
+    }
+}
